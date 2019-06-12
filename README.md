@@ -4,9 +4,9 @@ Log Analysis Project for Udacity's FullStack Nanodegree
 # DESCRIPTION
 The aim of this project was to create a reporting tool that prints out information from the given database file within the console. This reporting tool was written in Python 2.7 using the psycopg2 module to connect to the database. The database_setup.py file within the project folder creates PostgreSQL database for a news website. The provided Python script uses the psycopg2 library to query the database and produce a report that answers the following three questions:
 
-What are the most popular three articles of all time?
-Who are the most popular article authors of all time?
-On which days did more than 1% of requests lead to errors?
+1. What are the most popular three articles of all time?
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
 
 # How To Run The Programm
 It is recommendable to use a virtual machine to ensure that you are using the same environment that this project was developed on,as this will limit possible errors. You can download Vagrant and VirtualBox to install and manage your virtual machine.
